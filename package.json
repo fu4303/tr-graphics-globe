@@ -8,7 +8,7 @@
   "repository": "github:reuters-graphics/chart-module-globetrotter",
   "scripts": {
     "start": "next",
-    "build": "next build && next export -o docs && rollup -c rollup.config.js"
+    "build": "next build && next export -o pages && rollup -c rollup.config.js"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
