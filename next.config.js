@@ -8,7 +8,7 @@ const repoName = repository.split('/')[1];
 const prod = process.env.NODE_ENV === 'production';
 
 module.exports = transpileModules({
-  assetPrefix: prod ? `https://reuters-graphics.github.io/${repoName}/` : '',
+  assetPrefix: prod ? `https://tr-graphics-globe.vercel.app/${repoName}/` : '',
   devIndicators: {
     autoPrerender: false,
   },
